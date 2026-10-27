@@ -1,0 +1,6 @@
+# Replace @abmdi if repository ownership changes.
+* @abmdi
+/.github/ @abmdi
+/automation/ @abmdi
+/infra/ @abmdi
+/docs/AGENT_POLICY.md @abmdi
