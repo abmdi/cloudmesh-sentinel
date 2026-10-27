@@ -13,3 +13,6 @@ dev = ["pytest>=8,<10", "httpx>=0.27,<1", "ruff>=0.8,<1"]
 packages = ["src/cloudmesh_sentinel"]
 [tool.ruff]
 line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
