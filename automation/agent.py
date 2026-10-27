@@ -5,11 +5,11 @@ It does not claim to autonomously implement production code.
 """
 import json
 import os
-from pathlib import Path
 import re
 import subprocess
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs' / 'engineering'
